@@ -98,20 +98,15 @@ ul li {
 }
 
 /* notification responsive */
-@media (max-width: 768px) {
-    #modals .modal-content {
-        margin: 25% auto 25% auto;
-    }
 
-    .notification-container {
-        top: 0;
-        right: 0;
-        width: fit-content;
-        height: fit-content;
-        flex-direction: column;
-    }
+.notification-container {
+    top: 0;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+}
 
-    .notification {
-        width: 90vw;
-    }
+.notification {
+    width: 90vw;
 }
